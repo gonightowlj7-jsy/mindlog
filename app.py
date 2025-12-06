@@ -42,7 +42,7 @@ if api_key:
     # 1. 모델 설정
     genai.configure(api_key=api_key)
     model = genai.GenerativeModel(
-        model_name="gemini-1.5-flash", 
+        model_name="gemini-pro", 
         system_instruction=system_instruction
     )
 
